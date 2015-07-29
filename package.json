@@ -1,6 +1,6 @@
 {
   "name": "accessorize",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simple access function for getting and setting properties.",
   "keywords": [],
   "author": "Matthew Mueller <matt@lapwinglabs.com>",
