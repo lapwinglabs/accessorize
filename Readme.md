@@ -11,7 +11,7 @@ npm install accessorize
 
 ## Usage
 
-```
+```js
 var access = accessorize({ apple: 'red' });
 
 access() // { apple: 'red' }
