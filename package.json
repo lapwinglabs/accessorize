@@ -1,0 +1,21 @@
+{
+  "name": "accessorize",
+  "version": "0.0.1",
+  "description": "Simple access function for getting and setting properties.",
+  "keywords": [],
+  "author": "Matthew Mueller <matt@lapwinglabs.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LapwingLabs/accessorize.git"
+  },
+  "dependencies": {
+    "component-clone": "^0.2.2",
+    "is-plain-object": "^2.0.1",
+    "object-assign": "^3.0.0",
+    "sliced": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "main": "index"
+}
