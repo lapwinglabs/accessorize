@@ -13,11 +13,11 @@ npm install accessorize
 
 ```js
 var access = accessorize({ apple: 'red' });
-
 access() // { apple: 'red' }
 access({ banana: 'yellow' }) // { apple: 'red', banana: 'yellow' }
 access({ pear: 'green' }, { plum: 'purple' })
-access() // { apple: red, ... }
+access('orange', 'orange') // { apple: 'red', ... }
+access() // { apple: 'red', ... }
 access('pear', null) // delete pear key
 access('plum') // 'purple'
 ```
